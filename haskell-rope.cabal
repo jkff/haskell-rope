@@ -1,0 +1,19 @@
+Name:                haskell-rope
+Version:             0.1
+Synopsis:            A very simple but rather memory- and performance-efficient rope with logarithmic concatenation, access and splitting at an index or predicate
+Homepage:            http://github.com/jkff/haskell-rope
+License:             BSD3
+License-file:        LICENSE
+Author:              Eugene Kirpichov <ekirpichov@gmail.com>
+Maintainer:          Eugene Kirpichov <ekirpichov@gmail.com>
+Category:            Data
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+Library
+  Build-Depends: base >= 4 && < 5
+  Build-Depends: bytestring
+  Build-Depends: QuickCheck
+
+  Ghc-Options: -O2
+  Exposed-Modules: Data.Rope
