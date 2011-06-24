@@ -1,3 +1,3 @@
 A port of the (2..3, N..2N-1) rope from http://github.com/jkff/ire to Haskell.
-A very simple but rather memory- and performance-efficient rope with logarithimc concatenation, access and splitting at an index or predicate.
+A very simple but rather memory- and performance-efficient rope with logarithmic concatenation, access and splitting at an index or predicate.
 
